@@ -1,23 +1,27 @@
 /* ==========================
        IMPORT FONTS
 ========================== */
-@import url('https://fonts.googleapis.com/css?family=Dosis|Nunito');
-/* font-family   : 'Nunito'; */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-/* font-family: 'Roboto', sans-serif; */
-@import url('https://fonts.googleapis.com/css?family=Artifika|Handlee|Just+Another+Hand|Patrick+Hand|Sacramento|Shadows+Into+Light|Sofia');
-/* font-family: 'Artifika', serif;
-font-family: 'Handlee', cursive;
-font-family: 'Just Another Hand', cursive;
-font-family: 'Patrick Hand', cursive;
-font-family: 'Shadows Into Light', cursive;*/
 
+@import url('https://fonts.googleapis.com/css?family=Dosis|Nunito|Artifika|Handlee|Just+Another+Hand|Patrick+Hand|Sacramento|Shadows+Into+Light|Sofia');
+/* font-family: 'Nunito'; */
+/* font-family: 'Dosis'; */
+/* font-family: 'Artifika', serif; */
+/* font-family: 'Handlee', cursive; */
+/* font-family: 'Patrick Hand', cursive; */
+/* font-family: 'Shadows Into Light', cursive; */
+
+.off-canvas-wrapper {
+    border-bottom: 2px solid grey;
+}
+.off-canvas-content {
+    background-color: azure;
+}
 .welcome {
     font-family: 'Handlee', cursive;
 }
 .lead {
-    font-family: 'Nunito';
-    color: red;
+    font-family: 'Dosis';
+    color: firebrick;
 }
 .aboutme {
     font-family: 'Shadows Into Light', cursive;
@@ -26,4 +30,10 @@ font-family: 'Shadows Into Light', cursive;*/
 }
 .name {
     font-family: 'Artifika', serif;
+}
+.bye {
+    font-family: 'Sofia', sans-serif;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
 }
