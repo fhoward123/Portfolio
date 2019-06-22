@@ -1,0 +1,29 @@
+/* ==========================
+       IMPORT FONTS
+========================== */
+@import url('https://fonts.googleapis.com/css?family=Dosis|Nunito');
+/* font-family   : 'Nunito'; */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Artifika|Handlee|Just+Another+Hand|Patrick+Hand|Sacramento|Shadows+Into+Light|Sofia');
+/* font-family: 'Artifika', serif;
+font-family: 'Handlee', cursive;
+font-family: 'Just Another Hand', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Shadows Into Light', cursive;*/
+
+.welcome {
+    font-family: 'Handlee', cursive;
+}
+.lead {
+    font-family: 'Nunito';
+    color: red;
+}
+.aboutme {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.2em;
+    color: darkblue;
+}
+.name {
+    font-family: 'Artifika', serif;
+}
