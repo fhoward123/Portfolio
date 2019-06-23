@@ -14,14 +14,16 @@
     border-bottom: 2px solid grey;
 }
 .off-canvas-content {
-    background-color: azure;
+    background-color: #F0F8FF;
 }
 .welcome {
     font-family: 'Handlee', cursive;
+    text-align: center;
 }
 .lead {
     font-family: 'Dosis';
     color: firebrick;
+    text-align: center;
 }
 .aboutme {
     font-family: 'Shadows Into Light', cursive;
@@ -35,5 +37,7 @@
     font-family: 'Sofia', sans-serif;
     font-size: 1.5em;
     color: navy;
-    text-align: center;
+}
+.profile {
+    max-width: 8.5em;
 }
