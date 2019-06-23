@@ -41,3 +41,7 @@
 .profile {
     max-width: 8.5em;
 }
+.tiny {
+    width: 165px;
+    height: 76px;
+}
